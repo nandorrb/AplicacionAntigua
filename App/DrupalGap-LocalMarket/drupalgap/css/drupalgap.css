@@ -1,0 +1,29 @@
+.messages {
+	border: 1px solid black;
+	padding: 1em;
+	margin-bottom: 1em;
+	min-height: 0px;
+	display: none;
+}
+
+fieldset {
+	padding: 1em;
+	border: 1px solid black;
+}
+fieldset legend {
+	font-weight: bold;
+}
+label {
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 1.2em;
+}
+#karte {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}

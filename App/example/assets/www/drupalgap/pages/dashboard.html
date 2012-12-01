@@ -1,0 +1,95 @@
+<div data-role="page" id="drupalgap_page_dashboard">
+  	<div data-role="header">
+    	<h1></h1>
+  	</div><!-- /header -->
+  	<div data-role="header" data-theme="b" id="drupalgap_page_dashboard_header_user">
+    	<h2></h2>
+  	</div><!-- /header -->
+  	<div data-role="navbar" id="drupalgap_page_dashboard_navbar_anonymous">
+		<ul>
+			<li><a href="user_login.html" data-role="button" id="drupalgap_button_user_login">Login</a></li>
+			<li><a href="user_register.html" data-role="button" id="drupalgap_button_user_register">Register</a></li>
+		</ul>
+	</div><!-- /navbar -->
+	<div data-role="navbar" id="drupalgap_page_dashboard_navbar_authenticated">
+		<ul>
+			<li><a href="user.html" data-role="button" id="drupalgap_button_user_account">Mein Account</a></li>
+			<li><a href="#" data-role="button" id="drupalgap_button_user_logout">Logout</a></li>
+		</ul>
+	</div><!-- /navbar -->
+	<div data-role="content">
+        <div id="current_aa" data-role="collapsible-set" data-theme="c" data-content-theme="b">
+            <div data-role="collapsible" data-collapsed="false">
+                <h3>
+                    Aktuelles Angebot!
+                </h3>
+                <div id="current_aa_beschreibung">
+                    <strong>
+                        Wir suchen für den 5. &amp; 6. Januar 2012 jemanden zum Schneeräumen da wir im Urlaub sind.
+                    </strong>
+                </div>
+                <div class="ui-grid-a">
+                    <div id="current_aa_details"  class="ui-block-a">
+                        <a id="" data-role="button" data-transition="fade" href="node_arbeitsangebot.html">
+                            Details
+                        </a>
+                    </div>
+                    <div id="current_aa_hide" class="ui-block-b">
+                        <a id="" data-role="button" data-transition="fade" href="#hideme">
+                            Ausblenden
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="dashboard_button">
+        <a data-role="button" data-transition="fade" data-theme="b" href="arbeit_finden-listenansicht.html">
+            Arbeit finden
+        </a>
+        <a data-role="button" data-transition="fade" data-theme="b" href="arbeit_anbieten_meine_arbeitsangebote.html">
+            Arbeit anbieten
+        </a>
+        </div>
+        <!--
+        <div class="ui-grid-b">
+            <div class="ui-block-a">
+                <a data-role="button" data-transition="fade" href="einstellungen.html">
+                    Einstellungen
+                </a>
+            </div>
+            <div class="ui-block-b">
+                <div data-role="fieldcontain">
+                    <fieldset data-role="controlgroup">
+                        <label for="toggleswitch1">
+                            Live Suche
+                        </label>
+                        <select name="toggleswitch1" id="toggleswitch1" data-theme="b" data-role="slider" data-mini="true">
+                            <option value="off">
+                                Aus
+                            </option>
+                            <option value="on">
+                                An
+                            </option>
+                        </select>
+                    </fieldset>
+                </div>
+            </div>
+            <div class="ui-block-c">
+                <a data-role="button" data-transition="fade" href="#page1">
+                    Postfach
+                </a>
+            </div>
+        </div>
+        -->
+    </div>
+    <!--
+    	<hr />
+			<p><a href="content.html" data-role="button" id="drupalgap_button_content" style='display: none;'>Content</a></p>
+			<p><a href="comments_all.html" data-role="button" id="drupalgap_button_comments" style='display: none;'>Comments</a></p>
+	  	<hr />
+	  	<p><a href="configuration.html" data-role="button">DrupalGap Configuration</a></p>
+	  	<hr />
+	  	<p><a href="start.html" data-role="button">LocalMarket</a></p>
+      -->
+	</div><!-- /content -->
+</div><!-- /page -->

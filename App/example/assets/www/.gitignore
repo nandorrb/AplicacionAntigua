@@ -1,0 +1,9 @@
+.DS_Store
+
+jquery/plugins/jtsage-jquery-mobile-simpledialog
+jquery/plugins/popup
+jquery/plugins/web-ui-fw
+drupalgap/pages/home.html
+test.html
+
+cordova-1.7.0.js

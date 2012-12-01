@@ -1,0 +1,155 @@
+
+/*
+ * Content formating
+ */
+
+h2 {
+	font-size: 1.2em;
+  margin-bottom: 0.2em;
+}
+
+h3 {
+	font-size: 1em;
+  margin-bottom: 0.15em;
+}
+
+h4 {
+  margin-bottom: 0.15em;
+}
+
+p {
+  margin-top: 0.25em;
+}
+
+/*
+ * Links
+ */
+h1 a, h1 a:visited,
+h2 a, h2 a:visited, 
+h3 a, h3 a:visited,
+h4 a, h4 a:visited {
+  color: #1c6ea0;
+  text-decoration: none;
+}
+
+h2 a:hover,
+h2 a:focus,
+h2 a:active {
+  color: #42a9be;
+  text-decoration: none;  
+}
+
+/*
+.pager a:hover,
+.pager a:active,
+.pager a:focus {
+  background-color: #1c6ea0;
+  color: #fff;
+}
+
+.ui-btn:link, .ui-btn:visited,
+.ui-btn-left:link, .ui-btn-left:visited {color: white;}
+*/
+/*
+ * Dashboard
+ */
+
+#dashboard_button { margin-top: 15px; }
+ 
+/*
+ * ListView
+ */
+
+.listview-title {
+	margin: 0;
+}
+.listview-title-link {
+  padding: .7em 15px 0em 15px;
+  display: block;
+}
+
+/*
+ * Arbeitsangebot
+ */
+ 
+#berufsfelder-headline, #berufsfelder-list, .inline-list, 
+#stichworte-headline, #stichworte-list, .inline-headline {
+  list-style-image: none;
+  padding: 0;
+  display: inline-block;
+  margin: 0.25em 0 0.15em 0;
+}
+
+/*
+ * Dialog
+ */
+
+.info {
+	
+	
+}
+
+/*
+ * Karte
+ */
+
+#map_canvas, #map_canvas_list {
+	width: 100%;
+	height: 400px;
+}
+
+
+/*
+ * Arbeitsangebote View
+ */
+.distance {padding-left: 1.5em;}
+
+
+
+/*
+ * Performance Optimierung  
+ */
+/* disable shadows for better android performance */
+/*
+.ui-body-a,
+.ui-bar-a,
+.ui-btn-up-a,
+.ui-btn-hover-a,
+.ui-btn-down-a,
+
+.ui-body-b,
+.ui-bar-b,
+.ui-btn-up-b,
+.ui-btn-hover-b,
+.ui-btn-down-b,
+
+.ui-body-c,
+.ui-bar-c,
+.ui-btn-up-c,
+.ui-btn-hover-c,
+.ui-btn-down-c,
+
+.ui-body-d,
+.ui-bar-d,
+.ui-btn-up-d,
+.ui-btn-hover-d,
+.ui-btn-down-d,
+
+.ui-body-e,
+.ui-bar-e,
+.ui-btn-up-e,
+.ui-btn-hover-e,
+.ui-btn-down-e,
+
+.ui-shadow-inset,
+.ui-icon-shadow,
+.ui-focus,
+.ui-overlay-shadow,
+.ui-shadow,
+.ui-btn-active,*/
+.ui-overlay-shadow {
+    text-shadow: none !important;
+    box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
