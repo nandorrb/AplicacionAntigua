@@ -22,10 +22,10 @@ function get_aktuelle_aa (refresh) {
       "load_from_local_storage":"0",
       "error":function(jqXHR, textStatus, errorThrown) {
           if (errorThrown) {
-              alert(errorThrown);
+             // alert(errorThrown);
           }
           else {
-              alert(textStatus);
+             // alert(textStatus);
           }
       },
       "success":function(content) {
