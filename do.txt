@@ -4,10 +4,11 @@ TAREAS POR HACER
 -optimizar el uso de las bases de datos, quitarles el peso.
 
 *De la pagina
--hacer que los resultados de las busquedas sean mas elaboradas(usando SEARCH API).
+-hacer que los resultados de las busquedas sean mas elaboradas(usando SEARCH API)./*descargar SOLR search API*/
 -crear un nodo que permita las busqueda desde android
 -Aumentar el tamaño de la barra de busqueda
 -permitir que los usuarios tengan diferentes tipos de cuestionarios al registrarse, dependiendo de su ROL
+
 
 
 
