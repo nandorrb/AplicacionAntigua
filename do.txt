@@ -1,0 +1,21 @@
+TAREAS POR HACER
+*Del servidor
+-proteger lo datos, no permitir que cualquier usuario pueda acceder a las bases de datos
+-optimizar el uso de las bases de datos, quitarles el peso.
+
+*De la pagina
+-hacer que los resultados de las busquedas sean mas elaboradas(usando SEARCH API).
+-crear un nodo que permita las busqueda desde android
+-Aumentar el tamaño de la barra de busqueda
+-permitir que los usuarios tengan diferentes tipos de cuestionarios al registrarse, dependiendo de su ROL
+
+
+
+*De la app
+-poner un scanner de codigo de barras, programado en html
+-permitir hacer busquedas desde el dispositivo android
+-adaptar mejor la aplicacion a nuestos fines.
+
+
+TAREAS HECHAS
+
