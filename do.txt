@@ -8,9 +8,9 @@ TAREAS POR HACER
 -crear un nodo que permita las busqueda desde android
 -Aumentar el tamaño de la barra de busqueda
 -permitir que los usuarios tengan diferentes tipos de cuestionarios al registrarse, dependiendo de su ROL
-
-
-
+-Permitir qu los usuarios suban sus bases de datos, y que los productos se registren a su nombre.
+//(o ver una manera de solucionar el problema de los productos individuales, 
+sean multiples bases de datos, sean busquedas en archivos)
 
 *De la app
 -poner un scanner de codigo de barras, programado en html
